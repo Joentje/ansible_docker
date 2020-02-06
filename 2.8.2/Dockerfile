@@ -14,6 +14,8 @@ RUN yum clean all && \
         python-paramiko \
         python-setuptools \
         python-pip && \
+        sshpass && \
+        git && \
     pip install --upgrade pip && \
     pip install ansible==$ansible_version && \
     rm -rf /var/cache/apk/*
