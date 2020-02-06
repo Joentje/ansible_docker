@@ -11,8 +11,8 @@ RUN yum clean all && \
         python-keyczar \
         python-paramiko \
         python-setuptools \
-        python-pip && \
-        sshpass && \
+        python-pip \
+        sshpass \
         git && \
     pip install --upgrade pip && \
     pip install ansible && \
